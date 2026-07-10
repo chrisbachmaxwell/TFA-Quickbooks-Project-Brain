@@ -6,7 +6,11 @@ Milestones in order. One active goal at a time; the architect drafts the next go
 Goal page: [../goals/001-ledger-v0.md](../goals/001-ledger-v0.md)
 A user can create a chart of accounts, upload a bank statement CSV, categorize the imported transactions, and see a correct Balance Sheet and P&L in the browser. Shipped with 35 unit + 22 Playwright tests via `npm run gates`.
 
-## M2 — Deployed and private ← ACTIVE
+## M1.5 — Wave-quality UI ← ACTIVE (inserted 2026-07-10 by Chris's feedback)
+Goal page: [../goals/003-wave-quality-ui.md](../goals/003-wave-quality-ui.md)
+Dashboard with KPIs and a monthly chart, sidebar app shell, statement-styled reports. Built and gated; awaiting Chris's visual sign-off.
+
+## M2 — Deployed and private
 Goal page: [../goals/002-deployed-and-private.md](../goals/002-deployed-and-private.md)
 The app runs on Railway with managed Postgres, behind a login (single user is fine), with automated database backups verified restorable. TFA's real books can start living in it.
 
