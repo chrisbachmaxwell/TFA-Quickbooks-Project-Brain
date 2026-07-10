@@ -20,7 +20,7 @@ Keeps goal 001 small enough to finish. No real financial data goes into the app 
 ## D-006 · 2026-07-10 · CSV upload before bank feeds
 Statement upload is fully under our control and testable with fixtures. Direct bank connections (Plaid etc.) involve cost/privacy trade-offs — deferred to M4 with an explicit evaluation step.
 
-## D-007 · 2026-07-10 · Transfer matching deferred to M4; one-sided convention until then
+## D-007 · 2026-07-10 · ~~Transfer matching deferred to M4~~ SUPERSEDED same day by goal 009 — matching is built; see the rewritten concepts page
 Adversarial review showed categorizing both sides of a bank-to-bank transfer double-counts it (see [../concepts/transfers-double-count.md](../concepts/transfers-double-count.md)). Real matching is M4 scope; until then the convention is: categorize only the sending side, leave the mirror row uncategorized.
 
 ## D-008 · 2026-07-10 · The database enforces ledger invariants too, not just code
