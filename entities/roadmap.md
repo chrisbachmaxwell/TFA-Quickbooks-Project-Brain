@@ -25,7 +25,7 @@ Executed in this order, one goal at a time, gates green between each:
 Goal page: [../goals/002-deployed-and-private.md](../goals/002-deployed-and-private.md)
 The app runs on Railway with managed Postgres, behind a login (single user is fine), with automated database backups verified restorable. TFA's real books can start living in it.
 
-## M3 — Cash Flow statement
+## M3 — Cash Flow statement ✅ DONE 2026-07-10 (goal 004)
 The third of Chris's three reports, with tests proving it reconciles against the ledger (indirect method first).
 
 ## M4 — Bank connection & smarter import
