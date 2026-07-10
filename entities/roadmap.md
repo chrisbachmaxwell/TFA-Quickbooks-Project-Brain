@@ -6,9 +6,20 @@ Milestones in order. One active goal at a time; the architect drafts the next go
 Goal page: [../goals/001-ledger-v0.md](../goals/001-ledger-v0.md)
 A user can create a chart of accounts, upload a bank statement CSV, categorize the imported transactions, and see a correct Balance Sheet and P&L in the browser. Shipped with 35 unit + 22 Playwright tests via `npm run gates`.
 
-## M1.5 — Wave-quality UI ← ACTIVE (inserted 2026-07-10 by Chris's feedback)
+## M1.5 — Wave-quality UI ✅ DONE 2026-07-10
 Goal page: [../goals/003-wave-quality-ui.md](../goals/003-wave-quality-ui.md)
-Dashboard with KPIs and a monthly chart, sidebar app shell, statement-styled reports. Built and gated; awaiting Chris's visual sign-off.
+Dashboard with KPIs and a monthly chart, sidebar app shell, statement-styled reports. Chris signed off same day.
+
+## THE PARITY RUN (authorized by Chris 2026-07-10: "add as many goals as you want… do all the tasks until it is done")
+Executed in this order, one goal at a time, gates green between each:
+1. [goals/002](../goals/002-deployed-and-private.md) — login auth, backups, Railway deploy config
+2. [goals/004](../goals/004-cash-flow-statement.md) — Cash Flow statement (completes Chris's three reports)
+3. [goals/005](../goals/005-manage-transactions.md) — undo, exclude, manual journal entries
+4. [goals/006](../goals/006-split-transactions.md) — split categorization
+5. [goals/007](../goals/007-registers-and-ledger-reports.md) — account registers, trial balance, general ledger, reports hub
+6. [goals/008](../goals/008-categorization-qol.md) — suggestions, bulk categorize, starter chart of accounts
+7. [goals/009](../goals/009-transfer-matching.md) — transfer matching (retires D-007)
+8. [goals/010](../goals/010-report-exports-and-comparison.md) — CSV exports, P&L comparison, date presets
 
 ## M2 — Deployed and private
 Goal page: [../goals/002-deployed-and-private.md](../goals/002-deployed-and-private.md)

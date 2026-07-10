@@ -10,7 +10,8 @@
 
 ## Where things stand
 - **Goal 001 (Ledger v0): DONE** — see its iteration log for the adversarial review + gate falsification record. Code repo commits `9649ab5`, `c5f0401`.
-- **Active goal: [../goals/003-wave-quality-ui.md](../goals/003-wave-quality-ui.md) (IN PROGRESS)** — inserted by Chris's feedback. All build items done and gated (commit `62cef49`: sidebar shell, dashboard with KPIs + monthly chart, statement-styled reports); the one open box is Chris's visual sign-off.
+- **Goal 003 (Wave-quality UI): DONE** — Chris signed off 2026-07-10. Commit `62cef49`.
+- **THE PARITY RUN is underway** — see the roadmap's run order (goals 002, 004–010). Active goal moves as each closes; each goal's page carries its own iteration log.
 - **Next goal: [../goals/002-deployed-and-private.md](../goals/002-deployed-and-private.md) (PLANNED)** — Railway deploy, login, backups; has "Waiting on Chris" items (Railway project + app password).
 - **Known limitation (by decision D-007):** bank-to-bank transfers must only be categorized on one side until M4 — [../concepts/transfers-double-count.md](../concepts/transfers-double-count.md).
 - **No real financial data in the app yet** — that waits for M2's login + deployment, per decision D-005.

@@ -25,3 +25,6 @@ Adversarial review showed categorizing both sides of a bank-to-bank transfer dou
 
 ## D-008 · 2026-07-10 · The database enforces ledger invariants too, not just code
 CHECK constraints (non-negative, one-sided journal lines) and case-insensitive unique account names live in the schema itself, so no future write path can silently corrupt the books. Any new invariant the code enforces should get a DB-level backstop where Postgres can express it cheaply.
+
+## D-009 · 2026-07-10 · Invoicing/AR deliberately parked
+Wave's other half is invoicing, but TFA is a holding company — dividends, transfers, and expenses dominate; nobody sends TFA-branded invoices. Building it well needs Chris's requirements (branding, delivery, tax). Parked on the roadmap parking lot until he asks; the parity run spends that effort on books-quality instead (registers, journal entries, transfers, cash flow).
