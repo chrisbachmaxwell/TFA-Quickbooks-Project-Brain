@@ -30,5 +30,6 @@ Read this file first, then follow links. Never sweep folders.
 | [goals/001-ledger-v0.md](goals/001-ledger-v0.md) | **← the active goal** |
 | [concepts/](concepts/README.md) | Hard-won domain knowledge, one lesson per file |
 | [concepts/transfers-double-count.md](concepts/transfers-double-count.md) | Never categorize both sides of a bank-to-bank transfer |
+| [concepts/this-container-kills-postgres.md](concepts/this-container-kills-postgres.md) | P1001 after a green run = the container killed Postgres, not your code |
 | [log/](log/) | Dated session notes |
 | [raw/](raw/README.md) | Append-only ground truth: logs, evidence, pastes. Never edited. |

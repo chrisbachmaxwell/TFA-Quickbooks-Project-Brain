@@ -11,6 +11,7 @@
 ## Where things stand
 - **Goal 001 (Ledger v0): DONE** — see its iteration log for the adversarial review + gate falsification record. Code repo commits `9649ab5`, `c5f0401`.
 - **Goal 003 (Wave-quality UI): DONE** — Chris signed off 2026-07-10. Commit `62cef49`.
+- **Goal 002 (auth+backups+deploy config): DONE** code-side — Railway clicking is on Chris (docs/deploy.md walks him through).
 - **THE PARITY RUN is underway** — see the roadmap's run order (goals 002, 004–010). Active goal moves as each closes; each goal's page carries its own iteration log.
 - **Next goal: [../goals/002-deployed-and-private.md](../goals/002-deployed-and-private.md) (PLANNED)** — Railway deploy, login, backups; has "Waiting on Chris" items (Railway project + app password).
 - **Known limitation (by decision D-007):** bank-to-bank transfers must only be categorized on one side until M4 — [../concepts/transfers-double-count.md](../concepts/transfers-double-count.md).
