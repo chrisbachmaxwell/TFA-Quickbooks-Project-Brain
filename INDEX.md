@@ -29,5 +29,6 @@ Read this file first, then follow links. Never sweep folders.
 | [goals/README.md](goals/README.md) | How goals work + goal-page template |
 | [goals/001-ledger-v0.md](goals/001-ledger-v0.md) | **← the active goal** |
 | [concepts/](concepts/README.md) | Hard-won domain knowledge, one lesson per file |
+| [concepts/transfers-double-count.md](concepts/transfers-double-count.md) | Never categorize both sides of a bank-to-bank transfer |
 | [log/](log/) | Dated session notes |
 | [raw/](raw/README.md) | Append-only ground truth: logs, evidence, pastes. Never edited. |
