@@ -15,6 +15,7 @@
 - **Goal 004 (Cash Flow statement): DONE** — all three of Chris's reports now exist and reconcile with each other.
 - **Goal 005 (undo/exclude/manual journal entries): DONE**.
 - **Goal 006 (split categorization): DONE**.
+- **Goal 007 (registers, trial balance, general ledger, reports hub): DONE**.
 - **THE PARITY RUN is underway** — see the roadmap's run order (goals 002, 004–010). Active goal moves as each closes; each goal's page carries its own iteration log.
 - **Next goal: [../goals/002-deployed-and-private.md](../goals/002-deployed-and-private.md) (PLANNED)** — Railway deploy, login, backups; has "Waiting on Chris" items (Railway project + app password).
 - **Known limitation (by decision D-007):** bank-to-bank transfers must only be categorized on one side until M4 — [../concepts/transfers-double-count.md](../concepts/transfers-double-count.md).
