@@ -27,7 +27,7 @@ Read this file first, then follow links. Never sweep folders.
 | [entities/decisions.md](entities/decisions.md) | Decisions made, with reasons — check before re-deciding anything |
 | [roles/](roles/) | Role pages: architect, worker, tester |
 | [goals/README.md](goals/README.md) | How goals work + goal-page template |
-| [goals/001-ledger-v0.md](goals/001-ledger-v0.md) | **← the active goal** |
+| [goals/](goals/) | Goal pages — 001 through 010 all DONE 2026-07-10/11; the architect drafts the next when work resumes |
 | [concepts/](concepts/README.md) | Hard-won domain knowledge, one lesson per file |
 | [concepts/transfers-double-count.md](concepts/transfers-double-count.md) | Never categorize both sides of a bank-to-bank transfer |
 | [concepts/this-container-kills-postgres.md](concepts/this-container-kills-postgres.md) | P1001 after a green run = the container killed Postgres, not your code |

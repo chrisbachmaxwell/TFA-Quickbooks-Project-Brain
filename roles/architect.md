@@ -27,7 +27,7 @@
 1. Pull both repos.
 2. Read the active goal page and the worker's latest iteration-log lines.
 3. Review the diff since your last review; run every gate yourself.
-4. Uncheck what doesn't hold (dated reason). For new tests: revert-feature → watch test fail → restore.
+4. Uncheck what doesn't hold (dated reason). For new tests: revert-feature → watch test fail → restore. **Commit the fix BEFORE falsifying** — `git checkout` restores HEAD, and an uncommitted fix gets silently wiped by your own restore (this happened; see log/2026-07-11).
 5. Fold any feedback from Chris into new checkbox items.
 6. If the goal is complete: set Status: DONE, update roadmap and project-status, draft the next goal page.
 7. If the stop clause has tripped: set Status: BLOCKED and write exactly why.
