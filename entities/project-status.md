@@ -18,7 +18,8 @@
 - **Goal 007 (registers, trial balance, general ledger, reports hub): DONE**.
 - **Goal 008 (suggestions, bulk categorize, starter accounts): DONE**.
 - **Goal 009 (transfer matching): DONE** — D-007's one-sided convention retired.
-- **THE PARITY RUN is underway** — see the roadmap's run order (goals 002, 004–010). Active goal moves as each closes; each goal's page carries its own iteration log.
+- **Goal 010 (CSV exports, P&L comparison, presets): DONE — all eight parity-run build goals complete.**
+- **THE PARITY RUN final review is underway** — see the roadmap's run order (goals 002, 004–010). Active goal moves as each closes; each goal's page carries its own iteration log.
 - **Next goal: [../goals/002-deployed-and-private.md](../goals/002-deployed-and-private.md) (PLANNED)** — Railway deploy, login, backups; has "Waiting on Chris" items (Railway project + app password).
 - **No real financial data in the app yet** — that waits for M2's login + deployment, per decision D-005.
 - Everything lives on git branch `claude/project-factory-setup-rz0utl` (GitHub made it the default branch since the repos started empty).

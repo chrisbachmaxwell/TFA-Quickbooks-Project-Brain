@@ -1,6 +1,6 @@
 # Goal 010 — Report exports, P&L comparison, date presets
 
-**Status:** PLANNED
+**Status:** DONE (2026-07-10)
 **Milestone:** part of M5, pulled forward
 **Stop clause:** max 6 worker cycles, or 2 no-progress cycles → BLOCKED with reasons.
 
@@ -8,10 +8,10 @@
 Every statement has a "Download CSV" button whose file matches the screen. The P&L can show a second column for the previous period with a change column. Date pickers have one-click presets (This month / This quarter / This year / Last year).
 
 ## Done when
-- [ ] Balance Sheet, P&L, Cash Flow, and Trial Balance each export CSV via a download link on the page; the CSV's totals equal the rendered totals (verified by: Playwright `e2e/exports.spec.ts` — downloads parsed and asserted against fixture numbers)
-- [ ] P&L supports `compare=previous`: a prior-period column of equal length plus a change column, each row aligned by account (verified by: unit test `comparison.spec.ts` + Playwright `e2e/exports.spec.ts`)
-- [ ] Report date controls offer This month / This quarter / This year / Last year presets that set the from/to fields (verified by: Playwright `e2e/exports.spec.ts`)
-- [ ] All gates green (verified by: `npm run gates`)
+- [x] Balance Sheet, P&L, Cash Flow, and Trial Balance each export CSV via a download link on the page; the CSV's totals equal the rendered totals (verified by: Playwright `e2e/exports.spec.ts` — downloads parsed and asserted against fixture numbers)
+- [x] P&L supports `compare=previous`: a prior-period column of equal length plus a change column, each row aligned by account (verified by: unit test `comparison.spec.ts` + Playwright `e2e/exports.spec.ts`)
+- [x] Report date controls offer This month / This quarter / This year / Last year presets that set the from/to fields (verified by: Playwright `e2e/exports.spec.ts`)
+- [x] All gates green (verified by: `npm run gates`)
 
 ## Waiting on Chris
 - (nothing)
@@ -21,3 +21,4 @@ Every statement has a "Download CSV" button whose file matches the screen. The P
 
 ## Iteration log
 - 2026-07-10 architect: drafted for the long autonomous run.
+- 2026-07-10 worker (cycle 1): built as specced; gates 74 unit + 64 e2e green first run. Commit `4cec6ef`.
