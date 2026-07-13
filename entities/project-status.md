@@ -12,9 +12,9 @@ Two adversarial review rounds (fresh-context agent, same model — no second mod
 
 ## Where things stand
 - **Goals 001–010: ALL DONE.** Each goal page carries its iteration log and commit hashes.
-- **Deployment: waiting on Chris** — the only remaining item from goal 002. [docs/deploy.md](https://github.com/chrisbachmaxwell/TFA-Quickbooks/blob/claude/project-factory-setup-rz0utl/docs/deploy.md) (in the **code** repo) walks through Railway click by click (~10 min).
+- **DEPLOYED 2026-07-13**: live at <https://tfa-books-production.up.railway.app> (Railway project "TFA-Books", GitHub-linked — pushes to the default branch auto-deploy). Remaining hygiene: Chris revokes the CLI token; rotate APP_PASSWORD in Railway Variables if desired. [docs/deploy.md](https://github.com/chrisbachmaxwell/TFA-Quickbooks/blob/claude/project-factory-setup-rz0utl/docs/deploy.md) (in the **code** repo) walks through Railway click by click (~10 min).
 - **Deliberately not built**: invoicing/AR (D-009 — likely irrelevant for a holding company; ask Chris), multi-entity (M6), bank feeds (M4 evaluation pending).
 - Everything on branch `claude/project-factory-setup-rz0utl` (GitHub default).
 
 ## Next action
-Chris deploys via [docs/deploy.md](https://github.com/chrisbachmaxwell/TFA-Quickbooks/blob/claude/project-factory-setup-rz0utl/docs/deploy.md) and starts putting TFA's real books in. Next natural goals when work resumes: multi-entity (M6) or bank-feed evaluation (M4) — architect should interview Chris first.
+Chris logs in and starts the real books (starter accounts → import a statement). Superseded: deploying via [docs/deploy.md](https://github.com/chrisbachmaxwell/TFA-Quickbooks/blob/claude/project-factory-setup-rz0utl/docs/deploy.md) and starts putting TFA's real books in. Next natural goals when work resumes: multi-entity (M6) or bank-feed evaluation (M4) — architect should interview Chris first.
