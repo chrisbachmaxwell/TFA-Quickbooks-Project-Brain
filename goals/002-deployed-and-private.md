@@ -17,7 +17,7 @@ Chris opens the app's Railway URL on his phone, is asked to log in, logs in with
 - [x] A backup/restore script exists: `npm run db:backup` writes a timestamped dump, `npm run db:restore <file>` restores it into an empty database, and a test proves a backup taken after posting entries restores to identical report totals (verified by: `e2e/backup-restore.spec.ts` or a Vitest integration test named `backup-restore`)
 
 ## Waiting on Chris
-- Create the Railway project (app service + Postgres) and set `DATABASE_URL`, `APP_PASSWORD` env vars — `docs/deploy.md` (written by this goal) will walk through it click by click.
+- Create the Railway project (app service + Postgres) and set `DATABASE_URL`, `APP_PASSWORD` env vars — [docs/deploy.md](https://github.com/chrisbachmaxwell/TFA-Quickbooks/blob/claude/project-factory-setup-rz0utl/docs/deploy.md) (in the **code** repo — not this brain repo) walks through it click by click.
 - Choose the app password (never commit it anywhere).
 - After first deploy: confirm the demo above works from his phone, then tell the tester/architect.
 
